@@ -12,8 +12,8 @@ var lines = input.split('\r\n');
 //lines = lines[0].split(" ");
 
 //obtem o primeiro valor do arquivo stdin
-let variavel1 = parseFloat(lines[0]);
+let a = parseFloat(lines[0]);
 //obtem o segundo valor do arquivo stdin
-let variavel2 = parseFloat(lines[1]);
+let b = parseFloat(lines[1]);
 
-console.log("Hello World!")
+console.log("X = "+(a+b))

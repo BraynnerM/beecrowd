@@ -15,5 +15,6 @@ var lines = input.split('\r\n');
 let a = parseFloat(lines[0]);
 //obtem o segundo valor do arquivo stdin
 let b = parseFloat(lines[1]);
+let c = parseFloat(lines[2]);
 
-console.log("MEDIA = "+(((a*3.5)+(b*7.5))/11).toFixed(5))
+console.log("MEDIA = "+(((a*2)+(b*3)+(c*5))/10).toFixed(1))

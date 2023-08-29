@@ -12,11 +12,9 @@ var lines = input.split('\r\n');
 //lines = lines[0].split(" ");
 
 //obtem o primeiro valor do arquivo stdin
-let a = parseFloat(lines[0]);
-//obtem o segundo valor do arquivo stdin
-let b = parseFloat(lines[1]);
-let c = parseFloat(lines[2]);
-let d = parseFloat(lines[3]);
-let diferenca = (a*b-c*d)
+let number = parseFloat(lines[0]);
+let hours = parseFloat(lines[1]);
+let salary = parseFloat(lines[2]);
 
-console.log("DIFERENCA = "+(diferenca).toFixed(0))
+console.log("NUMBER = "+number)
+console.log("SALARY = U$ "+(hours*salary).toFixed(2))

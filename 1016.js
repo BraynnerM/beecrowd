@@ -13,5 +13,4 @@ var lines = input.split('\r\n');
 
 //obtem o primeiro valor do arquivo stdin
 let x = parseInt(lines[0]);
-
 console.log(x*2+" minutos")

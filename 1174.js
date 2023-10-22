@@ -12,3 +12,10 @@ var lines = input.split('\r\n');
 //lines = lines[0].split(" ");
 
 //obtem o primeiro valor do arquivo stdin
+
+for (i = 0; i < 100; i++) {
+    let A = parseFloat(lines[i]);
+    if (A <= 10) {
+        console.log("A["+i+"] = "+(A.toFixed(1)))
+    }
+}
